@@ -4,8 +4,6 @@ The DNA strand is missing the pairing element. Take each character, get its pair
 Base pairs are a pair of AT and CG. Match the missing element to the provided character.
 
 Return the provided character as the first element in each array.
-
-For example, for the input GCG, return [["G", "C"], ["C","G"],["G", "C"]]
 */
 
 function pairElement(str) {
@@ -18,3 +16,4 @@ function pairElement(str) {
 }
 
 pairElement("GCG");
+//For this input, GCG, we should return [["G", "C"], ["C","G"],["G", "C"]]
