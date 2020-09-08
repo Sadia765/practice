@@ -1,0 +1,84 @@
+// JS Practice
+
+/*
+Two different types of data structures:
+ -Arrays []
+ -Objects {}
+
+*/
+
+/*
+ARRAYS
+
+*ordered with index starting at 0
+*signified by square brackets
+
+How to loop over them?
+
+What represents each element?
+
+
+*/
+
+/*
+OBJECTS
+
+*not ordered
+*signified by curly brackets
+
+How to loop over them?
+
+What represents each element?
+
+
+*/
+
+/*
+FUNCTIONS
+
+*syntax is:
+    function(){
+
+    }
+*ES6 has double arrow syntax:
+    () => {
+
+    }
+
+*/
+
+var arr1 = [1, 34, 3, 5, 27];
+
+// 1. Print each value to console
+// 2. Return how many numbers are even
+// 3. Add number 55 to the end and then print out the array
+// 4. Remove that element now
+
+var carObj1 = {
+    color: 'red',
+    year: 1991,
+    make: 'Honda',
+    model: 'Accord'
+};
+
+// 1. Print each value to console
+// 2. Add isAutomatic property to obj
+// 3. Delete isAutomatic property
+
+// NESTED DATA STRUCTURES
+
+var nestedDataStructure = [{
+    name: 'John',
+    age: 10
+}, {
+    name: 'Don',
+    age: 30
+}, {
+    name: 'Jim',
+    age: 20
+}, {
+    name: 'Rob',
+    age: 28
+}, ];
+
+// 1. Return new array with everyone's name that's at least than 20 y/o
